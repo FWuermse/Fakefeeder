@@ -25,6 +25,6 @@ function sendRequest() {
     xhr.onerror = function () {
         document.getElementById("reaction").innerHTML = "Error";
     };
-    xhr.setRequestHeader('Cookie', "cookies");
+    xhr.setRequestHeader('Cookie', cookies);
     xhr.send();
 }
