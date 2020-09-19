@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "fakefeeder",
+  "version": "1.0.0",
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "48": "/assets/icon.svg"
+    },
+    "default_title": "Feed faker",
+    "default_popup": "/src/popup.html"
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "webrequest",
+    "cookies",
+    "tabs"
+  ]
+}
